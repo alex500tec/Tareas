@@ -1,62 +1,63 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: #f4f4f4;
 }
 
 .contenedor-general {
     width: 1200px;
     margin: 0 auto;
+    background-color: #fff;
 }
 
 
-.cabecera {
-    width: 100%;
-    background-color: #090dff;
+header {
+    background-color: #1149ff;
     color: white;
     text-align: center;
     padding: 20px 0;
+    width: 100%;
+
 }
 
-.cabecera h1 {
-    font-size: 2.5em;
+header h1 {
     margin: 0;
+    font-size: 2.5em;
 }
 
 
 .menu {
-    background-color: #048eff;
-    padding: 10px;
-    text-align: center;
+    
+    background-color: #169fdf;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 400px;
 }
 
 .menu ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 .menu ul li {
     display: inline-block;
-    margin: 0 15px;
+    padding: 15px 20px;
 }
 
 .menu ul li a {
-    color: white;
     text-decoration: none;
-    font-size: 1.2em;
+    color: white;
+    font-size: 1.1em;
 }
 
 
-.contenido {
+.contenido-seccion {
     display: flex;
-    margin: 20px 0;
-    
-        display: flex;
-        margin: 20px 0;
-        flex-direction: row-reverse; /* Mueve la barra lateral al lado contrario */
-        
+    padding: 20px;
 }
 
 
@@ -71,25 +72,70 @@ body {
     gap: 20px;
 }
 
-.cuadricula .caja {
-    background-color: #f4f4f4;
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #ccc;
+
+
+h2 {
+    color: #4CAF50;
+    font-size: 1.8em;
+    margin-bottom: 20px;
 }
 
 
-.barra-lateral {
-    width: 30%;
-    background-color: #f0f0f0;
-    padding: 20px;
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 5px;
 }
 
 
-.pie {
-    width: 100%;
-    background-color: #0004ff;
+button {
+        background-color: #571ef4;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        opacity: 1;
+        transition: 0.3s;
+
+}
+
+button:hover {
+    background-color: #0976db;
+}
+
+.info {
+    background-color: #e7f9e7;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    display: none; 
+}
+
+#datos {
+    color: #333;
+    font-size: 1em;
+}
+.form-control{
+    width: 500px;
+}
+header {
+    background-color: #1149ff;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
+    width: 80%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
 }
