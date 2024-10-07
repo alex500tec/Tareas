@@ -127,4 +127,15 @@ button:hover {
 .form-control{
     width: 500px;
 }
-
+header {
+    background-color: #1149ff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 80%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
